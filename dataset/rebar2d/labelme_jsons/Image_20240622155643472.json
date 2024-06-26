@@ -1,0 +1,52 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "rebar",
+      "points": [
+        [
+          2310.0,
+          1171.5
+        ],
+        [
+          662.0,
+          1148.5
+        ],
+        [
+          529.0,
+          1135.5
+        ],
+        [
+          520.5,
+          1099.0
+        ],
+        [
+          543.0,
+          1062.5
+        ],
+        [
+          666.0,
+          1054.5
+        ],
+        [
+          2356.0,
+          1088.5
+        ],
+        [
+          2351.5,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\img\\Image_20240622155643472.jpg",
+  "imageData": null,
+  "imageHeight": 2048,
+  "imageWidth": 3072
+}

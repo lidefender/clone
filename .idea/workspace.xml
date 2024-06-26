@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="685f05f7-7edc-42ef-9dde-ad23a8f11206" name="更改" comment="666">
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/jsontomask2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/jsontomask2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/predict2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/predict2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/predict3.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/predict3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/utils/data_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/utils/data_loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/utils/dice_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/utils/dice_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Label2Everything/labelme2mask/【A】labelme转mask-单张图像/【A】labelme转mask-单张图像.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Label2Everything/labelme2mask/【A】labelme转mask-单张图像/【A】labelme转mask-单张图像.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Label2Everything/labelme2mask/【B】labelme转mask-批量.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Label2Everything/labelme2mask/【B】labelme转mask-批量.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Label2Everything/maskrgb2maskgrey/语义分割标注预处理-三通道彩图转单通道灰度图.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Label2Everything/maskrgb2maskgrey/语义分割标注预处理-三通道彩图转单通道灰度图.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/utils/Label2Everything" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2i0RjTYQIhFlTBgmb8JAn0yrixl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.json.executor": "Run",
+    "Python.jsontomask.executor": "Debug",
+    "Python.jsontomask2.executor": "Run",
+    "Python.predict.executor": "Run",
+    "Python.predict2.executor": "Run",
+    "Python.predict3.executor": "Run",
+    "Python.python predict.py -i image.jpg -o output.jpg.executor": "Run",
+    "Python.setup.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.二值掩码.executor": "Debug",
+    "Python.获取3.executor": "Run",
+    "Python.获取图像2.executor": "Run",
+    "Python.获取图像并测试.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "<未知>",
+    "last_opened_file_path": "F:/work/python/clone/dataset",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.debugger.dataview.coloredbydefault": "false",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\work\python\clone\dataset" />
+      <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs" />
+      <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs\sample" />
+      <recent name="F:\work\python\clone\2d\Pytorch-UNet\model" />
+      <recent name="F:\work\python\clone\2d\Pytorch-UNet" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs\sample" />
+      <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.predict">
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/Pytorch-UNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/Pytorch-UNet/predict.py" />
+      <option name="PARAMETERS" value="--model F:\work\python\clone\2d\Pytorch-UNet\model\checkpoint_epoch23.pth" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/Pytorch-UNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/Pytorch-UNet/predict2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/Pytorch-UNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/Pytorch-UNet/predict3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/Pytorch-UNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/Pytorch-UNet/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.predict" />
+      <item itemvalue="Python.predict2" />
+      <item itemvalue="Python.predict3" />
+      <item itemvalue="Python.train" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.predict2" />
+        <item itemvalue="Python.predict3" />
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="685f05f7-7edc-42ef-9dde-ad23a8f11206" name="更改" comment="" />
+      <created>1718625642648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718625642648</updated>
+      <workItem from="1718625643681" duration="1426000" />
+      <workItem from="1718674994775" duration="3519000" />
+      <workItem from="1718763532628" duration="638000" />
+      <workItem from="1718797566960" duration="2092000" />
+      <workItem from="1718883073818" duration="4493000" />
+      <workItem from="1718950981785" duration="8207000" />
+      <workItem from="1719022686885" duration="1579000" />
+      <workItem from="1719024736906" duration="826000" />
+      <workItem from="1719025891133" duration="70000" />
+      <workItem from="1719026107639" duration="8000" />
+      <workItem from="1719026130823" duration="1289000" />
+      <workItem from="1719038447975" duration="29000" />
+      <workItem from="1719057376963" duration="367000" />
+      <workItem from="1719110846284" duration="2989000" />
+      <workItem from="1719152560250" duration="23000" />
+      <workItem from="1719193821573" duration="4744000" />
+      <workItem from="1719209149452" duration="3512000" />
+      <workItem from="1719220736609" duration="2331000" />
+      <workItem from="1719291141091" duration="13396000" />
+      <workItem from="1719308004334" duration="7021000" />
+      <workItem from="1719364075374" duration="859000" />
+      <workItem from="1719364942592" duration="2126000" />
+      <workItem from="1719367078171" duration="699000" />
+      <workItem from="1719367778840" duration="10370000" />
+    </task>
+    <task id="LOCAL-00001" summary="666">
+      <option name="closed" value="true" />
+      <created>1718976629000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718976629000</updated>
+    </task>
+    <task id="LOCAL-00002" summary="666">
+      <option name="closed" value="true" />
+      <created>1719365136845</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719365136845</updated>
+    </task>
+    <task id="LOCAL-00003" summary="666">
+      <option name="closed" value="true" />
+      <created>1719365159459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719365159459</updated>
+    </task>
+    <task id="LOCAL-00004" summary="666">
+      <option name="closed" value="true" />
+      <created>1719367570617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719367570617</updated>
+    </task>
+    <task id="LOCAL-00005" summary="666">
+      <option name="closed" value="true" />
+      <created>1719368478744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719368478744</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="76b4c3e6-6d45-47f4-8f18-e546ca2b824e" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="76b4c3e6-6d45-47f4-8f18-e546ca2b824e">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/2d/Pytorch-UNet" />
+      <path value="$PROJECT_DIR$/2d/SERNet-Former" />
+      <path value="$PROJECT_DIR$/3dpoint/Cream" />
+      <path value="$PROJECT_DIR$/3dpoint/SparseConvNet" />
+    </ignored-roots>
+    <MESSAGE value="666" />
+    <option name="LAST_COMMIT_MESSAGE" value="666" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clone$3.coverage" NAME="获取3 覆盖结果" MODIFIED="1719038451066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$setup.coverage" NAME="setup 覆盖结果" MODIFIED="1718709158131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3dpoint/SparseConvNet" />
+    <SUITE FILE_PATH="coverage/clone$train.coverage" NAME="train 覆盖结果" MODIFIED="1719304081395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$.coverage" NAME="二值掩码 覆盖结果" MODIFIED="1719209335099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$jsontomask2.coverage" NAME="jsontomask2 覆盖结果" MODIFIED="1719209633535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$json.coverage" NAME="json 覆盖结果" MODIFIED="1719195149348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$python_predict_py__i_image_jpg__o_output_jpg.coverage" NAME="python predict.py -i image.jpg -o output.jpg 覆盖结果" MODIFIED="1718885340048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$jsontomask.coverage" NAME="jsontomask 覆盖结果" MODIFIED="1719209156496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$predict2.coverage" NAME="predict2 覆盖结果" MODIFIED="1719312969078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$predict.coverage" NAME="predict 覆盖结果" MODIFIED="1719372558225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$2.coverage" NAME="获取图像2 覆盖结果" MODIFIED="1719038203708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$predict3.coverage" NAME="predict3 覆盖结果" MODIFIED="1719312953793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+  </component>
+</project>

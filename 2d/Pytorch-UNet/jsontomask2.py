@@ -3,6 +3,7 @@ import os
 import numpy as np
 import cv2
 from labelme import utils
+import json
 from PIL import Image
 
 def json_to_mask(json_file, output_dir):
@@ -42,7 +43,7 @@ def json_to_mask(json_file, output_dir):
     # 保存掩码图像
     mask_img = Image.fromarray(mask)
     base_name = os.path.splitext(os.path.basename(json_file))[0]
-    mask_img.save(os.path.join(output_dir, f'{base_name}_mask.png'))
+    mask_img.save(os.path.join(output_dir, f'{base_name}_mask.png'))#####名
 
     # 保存标签信息
     with open(os.path.join(output_dir, f'{base_name}_labels.txt'), 'w') as f:
