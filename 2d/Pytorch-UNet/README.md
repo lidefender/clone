@@ -37,7 +37,7 @@ pip install -r requirements.txt
 4. Download the data and run training:
 ```bash
 bash scripts/download_data.sh
-python train.py --amp
+python traincopy.py --amp
 ```
 
 ### With Docker
@@ -63,7 +63,7 @@ sudo docker run --rm --shm-size=8g --ulimit memlock=-1 --gpus all -it milesial/u
 4. Download the data and run training:
 ```bash
 bash scripts/download_data.sh
-python train.py --amp
+python traincopy.py --amp
 ```
 
 ## Description

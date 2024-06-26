@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685f05f7-7edc-42ef-9dde-ad23a8f11206" name="更改" comment="666">
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/jsontomask2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/jsontomask2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/predict2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/predict2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/predict3.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/predict3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/traincopy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/utils/data_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/utils/data_loading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/utils/dice_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/utils/dice_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Label2Everything/labelme2mask/【A】labelme转mask-单张图像/【A】labelme转mask-单张图像.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Label2Everything/labelme2mask/【A】labelme转mask-单张图像/【A】labelme转mask-单张图像.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Label2Everything/labelme2mask/【B】labelme转mask-批量.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Label2Everything/labelme2mask/【B】labelme转mask-批量.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Label2Everything/maskrgb2maskgrey/语义分割标注预处理-三通道彩图转单通道灰度图.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Label2Everything/maskrgb2maskgrey/语义分割标注预处理-三通道彩图转单通道灰度图.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/utils/Label2Everything" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -62,8 +56,9 @@
     "Python.获取图像2.executor": "Run",
     "Python.获取图像并测试.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "<未知>",
-    "last_opened_file_path": "F:/work/python/clone/dataset",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/work/python/clone/2d/Pytorch-UNet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,11 +71,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\work\python\clone\2d\Pytorch-UNet" />
       <recent name="F:\work\python\clone\dataset" />
       <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs" />
       <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs\sample" />
       <recent name="F:\work\python\clone\2d\Pytorch-UNet\model" />
-      <recent name="F:\work\python\clone\2d\Pytorch-UNet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs\sample" />
@@ -157,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="traincopy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="clone" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,7 +166,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/Pytorch-UNet/train.py" />
+      <option name="SCRIPT_NAME" value="F:\work\python\clone\2d\Pytorch-UNet\traincopy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,14 +179,14 @@
       <item itemvalue="Python.predict" />
       <item itemvalue="Python.predict2" />
       <item itemvalue="Python.predict3" />
-      <item itemvalue="Python.train" />
+      <item itemvalue="Python.traincopy" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.predict" />
         <item itemvalue="Python.predict2" />
         <item itemvalue="Python.predict3" />
-        <item itemvalue="Python.train" />
+        <item itemvalue="Python.traincopy" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +229,8 @@
       <workItem from="1719364075374" duration="859000" />
       <workItem from="1719364942592" duration="2126000" />
       <workItem from="1719367078171" duration="699000" />
-      <workItem from="1719367778840" duration="10370000" />
+      <workItem from="1719367778840" duration="12146000" />
+      <workItem from="1719408680411" duration="2196000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <option name="closed" value="true" />
@@ -276,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719368478744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="666">
+      <option name="closed" value="true" />
+      <created>1719406759969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719406759970</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +314,7 @@
       <path value="$PROJECT_DIR$/2d/SERNet-Former" />
       <path value="$PROJECT_DIR$/3dpoint/Cream" />
       <path value="$PROJECT_DIR$/3dpoint/SparseConvNet" />
+      <path value="$PROJECT_DIR$/utils/Label2Everything" />
     </ignored-roots>
     <MESSAGE value="666" />
     <option name="LAST_COMMIT_MESSAGE" value="666" />

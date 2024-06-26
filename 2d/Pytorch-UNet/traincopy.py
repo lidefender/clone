@@ -19,16 +19,29 @@ from unet import UNet
 from utils.data_loading import BasicDataset, CarvanaDataset
 from utils.dice_score import dice_loss
 
-dir_img = Path('/kaggle/input/clonegit/clone/dataset/rebar2d/images')
-dir_mask = Path('/kaggle/input/clonegit/clone/dataset/rebar2d/masks')
-dir_checkpoint = Path('/kaggle/working')
-
+dir_img = Path(r'F:\work\dataset\rebar2D\train2\img')
+dir_mask = Path(r"F:\work\dataset\rebar2D\train2\mask")
+dir_checkpoint = Path(r"F:\work\python\clone\2d\Pytorch-UNet\model")
+print(torch.load(r"F:\work\python\clone\2d\Pytorch-UNet\model\premodel.pth"))
+# module_path = r'/content/drive/MyDrive/code/Pytorch-UNet'
+# # 将该目录添加到 sys.path
+# if module_path not in sys.path:
+#     sys.path.append(module_path)
+# from evaluate import evaluate
+# from unet import UNet
+# from utils.data_loading import BasicDataset, CarvanaDataset
+# from utils.dice_score import dice_loss
+#
+# dir_img = Path('./content/drive/MyDrive/data/dataset/rebar2d/train2/img')
+# dir_mask = Path('./content/drive/MyDrive/data/dataset/rebar2d/train2/masks')
+# dir_checkpoint = Path('./content/drive/MyDrive/code/Pytorch-UNet/model')
+#
 
 def train_model(
         model,
         device,
-        epochs: int = 5,
-        batch_size: int = 1,
+        epochs: int = 100,
+        batch_size: int = 32,
         learning_rate: float = 1e-5,
         val_percent: float = 0.1,
         save_checkpoint: bool = True,
@@ -87,7 +100,7 @@ def train_model(
         epoch_loss = 0
         with tqdm(total=n_train, desc=f'Epoch {epoch}/{epochs}', unit='img') as pbar:
             for batch in train_loader:
-                images, true_masks = batch['image'], batch['mask']
+                images, true_masks = batch['image'], batch['masks']
 
                 assert images.shape[1] == model.n_channels, \
                     f'Network has been defined with {model.n_channels} input channels, ' \
@@ -185,6 +198,7 @@ def get_args():
 
 
 if __name__ == '__main__':
+    # load_model = r"F:\work\python\clone\2d\Pytorch-UNet\model\premodel.pth"
     args = get_args()
 
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -204,7 +218,7 @@ if __name__ == '__main__':
 
     if args.load:
         state_dict = torch.load(args.load, map_location=device)
-        del state_dict['mask_values']
+        # del state_dict['mask_values']
         model.load_state_dict(state_dict)
         logging.info(f'Model loaded from {args.load}')
 
