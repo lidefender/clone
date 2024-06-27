@@ -32,7 +32,7 @@ def unique_mask_values(idx, mask_dir, mask_suffix):
         mask = mask.reshape(-1, mask.shape[-1])
         return np.unique(mask, axis=0)
     else:
-        raise ValueError(f'Loaded masks should have 2 or 3 dimensions, found {mask.ndim}')
+        raise ValueError(f'Loaded mask should have 2 or 3 dimensions, found {mask.ndim}')
 
 
 class BasicDataset(Dataset):
@@ -48,7 +48,7 @@ class BasicDataset(Dataset):
             raise RuntimeError(f'No input file found in {images_dir}, make sure you put your images there')
 
         logging.info(f'Creating dataset with {len(self.ids)} examples')
-        logging.info('Scanning masks files to determine unique values')
+        logging.info('Scanning mask files to determine unique values')
         with Pool() as p:
             unique = list(tqdm(
                 p.imap(partial(unique_mask_values, mask_dir=self.mask_dir, mask_suffix=self.mask_suffix), self.ids),
@@ -56,7 +56,7 @@ class BasicDataset(Dataset):
             ))
 
         self.mask_values = list(sorted(np.unique(np.concatenate(unique), axis=0).tolist()))
-        logging.info(f'Unique masks values: {self.mask_values}')
+        logging.info(f'Unique mask values: {self.mask_values}')
 
     def __len__(self):
         return len(self.ids)
@@ -96,19 +96,22 @@ class BasicDataset(Dataset):
         img_file = list(self.images_dir.glob(name + '.*'))
 
         assert len(img_file) == 1, f'Either no image or multiple images found for the ID {name}: {img_file}'
-        assert len(mask_file) == 1, f'Either no masks or multiple masks found for the ID {name}: {mask_file}'
+        assert len(mask_file) == 1, f'Either no mask or multiple mask found for the ID {name}: {mask_file}'
         mask = load_image(mask_file[0])
         img = load_image(img_file[0])
 
         assert img.size == mask.size, \
-            f'Image and masks {name} should be the same size, but are {img.size} and {mask.size}'
+            f'Image and mask {name} should be the same size, but are {img.size} and {mask.size}'
 
         img = self.preprocess(self.mask_values, img, self.scale, is_mask=False)
         mask = self.preprocess(self.mask_values, mask, self.scale, is_mask=True)
+        ############################################################################################################
+        # if mask.ndim == 3:
+        #     mask = mask[:, :, 0]
 
         return {
             'image': torch.as_tensor(img.copy()).float().contiguous(),
-            'masks': torch.as_tensor(mask.copy()).long().contiguous()
+            'mask': torch.as_tensor(mask.copy()).long().contiguous()
         }
 
 

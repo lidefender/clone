@@ -1,0 +1,65 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   135
+        Validation size: 15
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/5:  20%|███████████████████████████████                                                                                                                            | 27/135 [06:44<23:47, 13.22s/img, loss (batch)=1.2]
+
+Epoch 1/5:  20%|███████████████████████████████                                                                                                                            | 27/135 [07:11<28:46, 15.99s/img, loss (batch)=1.2]
+Traceback (most recent call last):
+  File "F:\work\python\clone\2d\Pytorch-UNet\train.py", line 216, in <module>
+    train_model(
+  File "F:\work\python\clone\2d\Pytorch-UNet\train.py", line 145, in train_model
+    val_score = evaluate(model, val_loader, device, amp)
+  File "F:\work\environment\envs\bar\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "F:\work\python\clone\2d\Pytorch-UNet\evaluate.py", line 30, in evaluate
+    dice_score += dice_coeff(mask_pred, mask_true, reduce_batch_first=False)
+  File "F:\work\python\clone\2d\Pytorch-UNet\utils\dice_score.py", line 7, in dice_coeff
+    assert input.size() == target.size()
+AssertionError
+Traceback (most recent call last):
+  File "F:\work\python\clone\2d\Pytorch-UNet\train.py", line 216, in <module>
+    train_model(
+  File "F:\work\python\clone\2d\Pytorch-UNet\train.py", line 145, in train_model
+    val_score = evaluate(model, val_loader, device, amp)
+  File "F:\work\environment\envs\bar\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "F:\work\python\clone\2d\Pytorch-UNet\evaluate.py", line 30, in evaluate
+    dice_score += dice_coeff(mask_pred, mask_true, reduce_batch_first=False)
+  File "F:\work\python\clone\2d\Pytorch-UNet\utils\dice_score.py", line 7, in dice_coeff
+    assert input.size() == target.size()
+AssertionError

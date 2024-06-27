@@ -1,0 +1,13 @@
+train: F:/work/python/yolo/code/ultralytics/dataset/barv2/train  #dataset/bardata1/train/images
+val: F:/work/python/yolo/code/ultralytics/dataset/barv2/valid #dataset/bardata1/valid/images
+# test: ../test/images
+
+nc: 4
+names: ['Sleeve joint', 'Welded link', 'plain round bar', 'ribbed bar']
+
+# roboflow:
+#   workspace: yolo-pmnqa
+#   project: bar-2
+#   version: 2
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/yolo-pmnqa/bar-2/dataset/2

@@ -26,20 +26,20 @@ def predict_img(net, full_img, device, scale_factor=1, out_threshold=0.5):
             mask = output.argmax(dim=1)
         else:
             mask = torch.sigmoid(output) > out_threshold
-    logging.info(f'Predicted masks unique values: {torch.unique(mask)}')
+    logging.info(f'Predicted mask unique values: {torch.unique(mask)}')
     return mask[0].long().squeeze().numpy()
 
 def get_args():
-    parser = argparse.ArgumentParser(description='Predict masks from input images')
+    parser = argparse.ArgumentParser(description='Predict mask from input images')
     parser.add_argument('--model', '-m', default=r'F:\work\python\clone\2d\Pytorch-UNet\model\checkpoint_epoch10.pth', metavar='FILE',
                         help='Specify the file in which the model is stored')
     parser.add_argument('--input', '-i', metavar='INPUT', nargs='+', help='Filenames of input images')
     parser.add_argument('--output', '-o', metavar='OUTPUT', nargs='+', help='Filenames of output images')
     parser.add_argument('--viz', '-v', action='store_true',
                         help='Visualize the images as they are processed')
-    parser.add_argument('--no-save', '-n', action='store_true', help='Do not save the output masks')
-    parser.add_argument('--masks-threshold', '-t', type=float, default=0.5,
-                        help='Minimum probability value to consider a masks pixel white')
+    parser.add_argument('--no-save', '-n', action='store_true', help='Do not save the output mask')
+    parser.add_argument('--mask-threshold', '-t', type=float, default=0.5,
+                        help='Minimum probability value to consider a mask pixel white')
     parser.add_argument('--scale', '-s', type=float, default=0.5,
                         help='Scale factor for the input images')
     parser.add_argument('--bilinear', action='store_true', default=False, help='Use bilinear upsampling')

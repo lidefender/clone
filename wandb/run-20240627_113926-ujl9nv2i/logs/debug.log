@@ -1,0 +1,89 @@
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_setup.py:_flush():68] Configure stats pid to 11488
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Liminghui\.config\wandb\settings
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_setup.py:_flush():68] Loading settings from F:\work\python\clone\wandb\settings
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': '2d\\Pytorch-UNet\\train.py', 'program': 'F:\\work\\python\\clone\\2d\\Pytorch-UNet\\train.py'}
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_setup.py:_flush():68] Applying login settings: {'anonymous': 'must'}
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_init.py:_log_setup():476] Logging user logs to F:\work\python\clone\wandb\run-20240627_113926-ujl9nv2i\logs\debug.log
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_init.py:_log_setup():477] Logging internal logs to F:\work\python\clone\wandb\run-20240627_113926-ujl9nv2i\logs\debug-internal.log
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_init.py:init():516] calling init triggers
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_init.py:init():569] starting backend
+2024-06-27 11:39:26,823 INFO    MainThread:11488 [wandb_init.py:init():573] setting up manager
+2024-06-27 11:39:26,829 INFO    MainThread:11488 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2024-06-27 11:39:26,831 INFO    MainThread:11488 [wandb_init.py:init():580] backend started and connected
+2024-06-27 11:39:26,831 INFO    MainThread:11488 [wandb_init.py:init():658] updated telemetry
+2024-06-27 11:39:26,864 INFO    MainThread:11488 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2024-06-27 11:39:30,308 INFO    MainThread:11488 [wandb_run.py:_on_init():2000] communicating current version
+2024-06-27 11:39:31,051 INFO    MainThread:11488 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.17.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-27 11:39:31,051 INFO    MainThread:11488 [wandb_init.py:init():728] starting run threads in backend
+2024-06-27 11:39:36,065 INFO    MainThread:11488 [wandb_run.py:_console_start():1980] atexit reg
+2024-06-27 11:39:36,065 INFO    MainThread:11488 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2024-06-27 11:39:36,065 INFO    MainThread:11488 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2024-06-27 11:39:36,065 INFO    MainThread:11488 [wandb_run.py:_redirect():1925] Redirects installed.
+2024-06-27 11:39:36,066 INFO    MainThread:11488 [wandb_init.py:init():765] run started, returning control to user process
+2024-06-27 11:39:36,066 INFO    MainThread:11488 [wandb_run.py:_config_callback():1160] config_cb None None {'epochs': 5, 'batch_size': 1, 'learning_rate': 1e-05, 'val_percent': 0.1, 'save_checkpoint': True, 'img_scale': 0.5, 'amp': False}
+2024-06-27 11:47:02,562 ERROR   MainThread:11488 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "F:\work\environment\envs\bar\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000200FFECAA70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\work\environment\envs\bar\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "F:\work\environment\envs\bar\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000200FFECAA70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\work\environment\envs\bar\lib\site-packages\wandb\sdk\lib\retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "F:\work\environment\envs\bar\lib\site-packages\wandb\sdk\internal\internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "F:\work\environment\envs\bar\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "F:\work\environment\envs\bar\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "F:\work\environment\envs\bar\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "F:\work\environment\envs\bar\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "F:\work\environment\envs\bar\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "F:\work\environment\envs\bar\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\work\environment\envs\bar\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "F:\work\environment\envs\bar\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000200FFECAA70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))

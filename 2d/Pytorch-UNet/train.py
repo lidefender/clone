@@ -19,10 +19,13 @@ from unet import UNet
 from utils.data_loading import BasicDataset, CarvanaDataset
 from utils.dice_score import dice_loss
 
-dir_img = Path('/kaggle/input/clonegit/clone/dataset/rebar2d/images')
-dir_mask = Path('/kaggle/input/clonegit/clone/dataset/rebar2d/masks')
-dir_checkpoint = Path('/kaggle/working')
+dir_img = Path(r'F:\work\python\clone\dataset\rebar2d\images')
+dir_mask = Path(r'F:\work\python\clone\dataset\rebar2d\mask')
+dir_checkpoint = Path(r'F:\work\python\clone\2d\Pytorch-UNet\model')
 
+# dir_img = Path('/kaggle/input/datasetrebar2d/images')
+# dir_mask = Path('/kaggle/input/datasetrebar2d/mask')
+# dir_checkpoint = Path('/kaggle/working/')
 
 def train_model(
         model,
@@ -39,10 +42,10 @@ def train_model(
         gradient_clipping: float = 1.0,
 ):
     # 1. Create dataset
-    try:
-        dataset = CarvanaDataset(dir_img, dir_mask, img_scale)
-    except (AssertionError, RuntimeError, IndexError):
-        dataset = BasicDataset(dir_img, dir_mask, img_scale)
+    # try:
+    #     dataset = CarvanaDataset(dir_img, dir_mask, img_scale)
+    # except (AssertionError, RuntimeError, IndexError):
+    dataset = BasicDataset(dir_img, dir_mask, img_scale)
 
     # 2. Split into train / validation partitions
     n_val = int(len(dataset) * val_percent)
@@ -148,7 +151,7 @@ def train_model(
                                 'learning rate': optimizer.param_groups[0]['lr'],
                                 'validation Dice': val_score,
                                 'images': wandb.Image(images[0].cpu()),
-                                'masks': {
+                                'mask': {
                                     'true': wandb.Image(true_masks[0].float().cpu()),
                                     'pred': wandb.Image(masks_pred.argmax(dim=1)[0].float().cpu()),
                                 },
@@ -168,7 +171,7 @@ def train_model(
 
 
 def get_args():
-    parser = argparse.ArgumentParser(description='Train the UNet on images and target masks')
+    parser = argparse.ArgumentParser(description='Train the UNet on images and target mask')
     parser.add_argument('--epochs', '-e', metavar='E', type=int, default=5, help='Number of epochs')
     parser.add_argument('--batch-size', '-b', dest='batch_size', metavar='B', type=int, default=1, help='Batch size')
     parser.add_argument('--learning-rate', '-l', metavar='LR', type=float, default=1e-5,
@@ -179,7 +182,7 @@ def get_args():
                         help='Percent of the data that is used as validation (0-100)')
     parser.add_argument('--amp', action='store_true', default=False, help='Use mixed precision')
     parser.add_argument('--bilinear', action='store_true', default=False, help='Use bilinear upsampling')
-    parser.add_argument('--classes', '-c', type=int, default=2, help='Number of classes')
+    parser.add_argument('--classes', '-c', type=int, default=1, help='Number of classes')
 
     return parser.parse_args()
 
@@ -204,7 +207,7 @@ if __name__ == '__main__':
 
     if args.load:
         state_dict = torch.load(args.load, map_location=device)
-        del state_dict['mask_values']
+        # del state_dict['mask_values']
         model.load_state_dict(state_dict)
         logging.info(f'Model loaded from {args.load}')
 

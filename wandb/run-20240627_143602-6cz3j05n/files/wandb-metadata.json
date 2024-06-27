@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-06-27T06:36:05.823361",
+    "startedAt": "2024-06-27T06:36:02.425411",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--classes",
+        "1"
+    ],
+    "state": "running",
+    "program": "F:\\work\\python\\clone\\2d\\Pytorch-UNet\\train.py",
+    "codePath": "2d\\Pytorch-UNet\\train.py",
+    "git": {
+        "remote": "https://github.com/lidefender/clone.git",
+        "commit": "6fab70914fe879087799ffcf4521ae85df0aa4d7"
+    },
+    "email": "1710501386@qq.com",
+    "root": "F:/work/python/clone",
+    "host": "LAPTOP-B3TDKSIE",
+    "username": "Liminghui",
+    "executable": "F:\\work\\environment\\envs\\bar\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2887.0,
+        "min": 0.0,
+        "max": 3601.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2887.0,
+            "min": 0.0,
+            "max": 3601.0
+        }
+    ],
+    "disk": {
+        "total": 984.0937461853027,
+        "used": 697.8700408935547
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 15.17629623413086
+    }
+}

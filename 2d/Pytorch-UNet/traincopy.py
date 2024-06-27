@@ -33,7 +33,7 @@ print(torch.load(r"F:\work\python\clone\2d\Pytorch-UNet\model\premodel.pth"))
 # from utils.dice_score import dice_loss
 #
 # dir_img = Path('./content/drive/MyDrive/data/dataset/rebar2d/train2/img')
-# dir_mask = Path('./content/drive/MyDrive/data/dataset/rebar2d/train2/masks')
+# dir_mask = Path('./content/drive/MyDrive/data/dataset/rebar2d/train2/mask')
 # dir_checkpoint = Path('./content/drive/MyDrive/code/Pytorch-UNet/model')
 #
 
@@ -100,7 +100,7 @@ def train_model(
         epoch_loss = 0
         with tqdm(total=n_train, desc=f'Epoch {epoch}/{epochs}', unit='img') as pbar:
             for batch in train_loader:
-                images, true_masks = batch['image'], batch['masks']
+                images, true_masks = batch['image'], batch['mask']
 
                 assert images.shape[1] == model.n_channels, \
                     f'Network has been defined with {model.n_channels} input channels, ' \
@@ -161,7 +161,7 @@ def train_model(
                                 'learning rate': optimizer.param_groups[0]['lr'],
                                 'validation Dice': val_score,
                                 'images': wandb.Image(images[0].cpu()),
-                                'masks': {
+                                'mask': {
                                     'true': wandb.Image(true_masks[0].float().cpu()),
                                     'pred': wandb.Image(masks_pred.argmax(dim=1)[0].float().cpu()),
                                 },
@@ -181,7 +181,7 @@ def train_model(
 
 
 def get_args():
-    parser = argparse.ArgumentParser(description='Train the UNet on images and target masks')
+    parser = argparse.ArgumentParser(description='Train the UNet on images and target mask')
     parser.add_argument('--epochs', '-e', metavar='E', type=int, default=5, help='Number of epochs')
     parser.add_argument('--batch-size', '-b', dest='batch_size', metavar='B', type=int, default=1, help='Batch size')
     parser.add_argument('--learning-rate', '-l', metavar='LR', type=float, default=1e-5,
