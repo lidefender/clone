@@ -5,166 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685f05f7-7edc-42ef-9dde-ad23a8f11206" name="更改" comment="666">
-      <change afterPath="$PROJECT_DIR$/2d/ultralytics/examples/test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2d/ultralytics/examples/zidane.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152006003.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152022155.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152027051.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152032646.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152038023.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152043066.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152049220.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152054365.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152100108.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152105224.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152110857.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152117110.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152138391.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152201002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152327307.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152413746.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152525162.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152527929.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152530118.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152532671.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152535159.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152537569.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152540884.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152552400.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152555962.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152559960.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152602787.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152606947.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152609327.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152612356.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152614649.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152624069.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152628099.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152631231.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152634116.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152637110.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152639961.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152642626.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152645923.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152648476.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152651019.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152653778.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152656210.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152658379.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622152700696.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153200523.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153209279.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153212685.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153214873.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153218585.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153221036.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153223271.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153226221.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153251975.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153254754.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153257949.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153650303.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153653586.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153656245.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622153700003.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154405623.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154413899.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154418470.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154424228.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154427379.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154433081.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154435984.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154446120.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154601873.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154620468.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154623657.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154626429.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154631970.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154639550.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154641938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154646176.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154649319.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154651792.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154654311.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154658031.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154706390.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154709489.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154712309.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154812990.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154819654.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154821973.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154827145.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154832033.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154836747.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154848851.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154851267.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154857968.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154900145.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154903985.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154906938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154910728.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622154916381.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155007334.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155016309.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155021647.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155029176.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155032006.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155034689.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155038553.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155041962.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155044252.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155046691.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155050622.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155053314.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155056422.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155059256.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155111106.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155114550.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155118711.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155122322.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155125003.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155143140.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155150771.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155153563.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155159115.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155217456.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155222760.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155227334.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155232385.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155236881.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155242684.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155245361.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155449132.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155453216.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155455613.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155459067.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155503938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155514810.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155518451.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155627318.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155634193.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155638304.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155643472.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155648213.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155652944.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155658642.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155702237.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155706238.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155713170.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155716771.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155719377.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155722311.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155724819.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155727835.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/rebar2d/yololabel/Image_20240622155730477.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/转换为yolotxt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/clone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/output.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/result1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/mask/sam_b.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/yolotxt转json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/yolo自动标注.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/一条龙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/剔除没有标签的图片.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/将掩码变为json多类版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/掩码可视化json版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/掩码可视化mask版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/数据集划分 新.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/特征点追踪.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/用感兴趣区域方法得到抠图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/用模型加传统方法得到抠图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/用模型加传统方法得到掩码.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/Pytorch-UNet/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2d/Pytorch-UNet/test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/ultralytics/examples/tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2d/ultralytics/examples/tutorial.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/ultralytics/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d/ultralytics/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/ultralnew/ultralytics/result.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/result.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/cuda语义分割数据增强+棕色.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/cuda语义分割数据增强+棕色.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/将json变为掩码.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/将json变为掩码.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/数据集划分.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/数据集划分.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/用模型加传统方法制作标签.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/实时显示预测.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/转换为yolotxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/转换为yolotxt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +63,8 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.cuda语义分割数据增强+棕色.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo1.executor&quot;: &quot;Run&quot;,
     &quot;Python.json.executor&quot;: &quot;Run&quot;,
     &quot;Python.jsontomask.executor&quot;: &quot;Debug&quot;,
     &quot;Python.jsontomask2.executor&quot;: &quot;Run&quot;,
@@ -211,31 +77,52 @@
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.train.executor&quot;: &quot;Run&quot;,
     &quot;Python.traindemask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yolotxt转json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yolo自动标注.executor&quot;: &quot;Run&quot;,
+    &quot;Python.一条龙.executor&quot;: &quot;Run&quot;,
     &quot;Python.二值掩码.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.剔除没有标签的图片.executor&quot;: &quot;Run&quot;,
+    &quot;Python.将json变为掩码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.将掩码变为json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.将掩码变为json多类版.executor&quot;: &quot;Run&quot;,
+    &quot;Python.掩码变为白色.executor&quot;: &quot;Run&quot;,
+    &quot;Python.掩码可视化.executor&quot;: &quot;Run&quot;,
+    &quot;Python.掩码可视化json版 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.掩码可视化mask版.executor&quot;: &quot;Run&quot;,
+    &quot;Python.数据集划分 新.executor&quot;: &quot;Run&quot;,
+    &quot;Python.数据集划分.executor&quot;: &quot;Run&quot;,
+    &quot;Python.海康相机采图.executor&quot;: &quot;Run&quot;,
+    &quot;Python.海康相机采图sdk(1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.用感兴趣区域方法得到抠图.executor&quot;: &quot;Run&quot;,
+    &quot;Python.用模型加传统方法制作标签.executor&quot;: &quot;Run&quot;,
+    &quot;Python.用模型加传统方法得到抠图.executor&quot;: &quot;Run&quot;,
+    &quot;Python.用模型加传统方法得到掩码.executor&quot;: &quot;Run&quot;,
     &quot;Python.获取3.executor&quot;: &quot;Run&quot;,
     &quot;Python.获取图像2.executor&quot;: &quot;Run&quot;,
     &quot;Python.获取图像并测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.语义分割数据增强+棕色.executor&quot;: &quot;Run&quot;,
+    &quot;Python.转换为yolotxt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/work/python/clone/2d/Pytorch-UNet&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/work/python/clone/utils&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;python.debugger.dataview.coloredbydefault&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\work\python\clone\utils" />
+      <recent name="F:\work\python\clone\utils\mask" />
       <recent name="F:\work\python\clone\2d\Pytorch-UNet" />
       <recent name="F:\work\python\clone\dataset" />
       <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs" />
-      <recent name="F:\work\python\clone\2d\Pytorch-UNet\data\imgs\sample" />
-      <recent name="F:\work\python\clone\2d\Pytorch-UNet\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\work\python\clone\utils\mask" />
@@ -258,7 +145,76 @@
       <visibility group="运行 pip 命令" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="数据集划分 新" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/数据集划分 新.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据集划分" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/数据集划分.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="用模型加传统方法得到掩码" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/用模型加传统方法得到掩码.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="clone" />
       <option name="ENV_FILES" value="" />
@@ -268,36 +224,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/ultralytics/examples/YOLOv8-Segmentation-ONNXRuntime-Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/ultralnew/ultralytics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/ultralytics/examples/YOLOv8-Segmentation-ONNXRuntime-Python/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/ultralnew/ultralytics/main.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="clone" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/Pytorch-UNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/Pytorch-UNet/predict.py" />
-      <option name="PARAMETERS" value="--model F:\work\python\clone\2d\Pytorch-UNet\model\checkpoint_epoch23.pth" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -314,12 +247,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/ultralytics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/ultralnew/ultralytics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/ultralytics/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/ultralnew/ultralytics/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="转换为yolotxt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="clone" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -337,36 +270,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/Pytorch-UNet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/Pytorch-UNet/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/转换为yolotxt.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="traindemask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="clone" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2d/Pytorch-UNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2d/Pytorch-UNet/traindemask.py" />
-      <option name="PARAMETERS" value="--load F:\work\python\clone\2d\Pytorch-UNet\model\premodel.pth --scale 1" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -375,19 +285,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.train" />
-      <item itemvalue="Python.traindemask" />
-      <item itemvalue="Python.predict" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.数据集划分" />
+      <item itemvalue="Python.数据集划分 新" />
+      <item itemvalue="Python.转换为yolotxt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.traindemask" />
-        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.数据集划分 新" />
+        <item itemvalue="Python.转换为yolotxt" />
+        <item itemvalue="Python.数据集划分" />
       </list>
     </recent_temporary>
   </component>
@@ -438,6 +348,13 @@
       <workItem from="1719490771641" duration="1644000" />
       <workItem from="1719537344282" duration="9640000" />
       <workItem from="1719551862565" duration="4970000" />
+      <workItem from="1719803140335" duration="12984000" />
+      <workItem from="1719829852900" duration="1868000" />
+      <workItem from="1719832796195" duration="908000" />
+      <workItem from="1719833760227" duration="820000" />
+      <workItem from="1719834783656" duration="505000" />
+      <workItem from="1719886228829" duration="4426000" />
+      <workItem from="1719895439554" duration="18912000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <option name="closed" value="true" />
@@ -503,7 +420,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719492406672</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="666">
+      <option name="closed" value="true" />
+      <created>1719886296633</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719886296633</updated>
+    </task>
+    <task id="LOCAL-00010" summary="666">
+      <option name="closed" value="true" />
+      <created>1719927917665</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719927917666</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,6 +472,7 @@
       <path value="$PROJECT_DIR$/3dpoint/Cream" />
       <path value="$PROJECT_DIR$/3dpoint/SparseConvNet" />
       <path value="$PROJECT_DIR$/utils/Label2Everything" />
+      <path value="$PROJECT_DIR$/2d/ultralnew/ultralytics" />
     </ignored-roots>
     <MESSAGE value="666" />
     <option name="LAST_COMMIT_MESSAGE" value="666" />
@@ -551,21 +485,35 @@
           <line>23</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/海康相机采图sdk(1).py</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clone$yolo.coverage" NAME="yolo自动标注 覆盖结果" MODIFIED="1719908664251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$mask.coverage" NAME="掩码可视化mask版 覆盖结果" MODIFIED="1719910202948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$json__1_.coverage" NAME="掩码可视化json版 (1) 覆盖结果" MODIFIED="1719911249290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$test.coverage" NAME="test 覆盖结果" MODIFIED="1719927829178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/ultralnew/ultralytics" />
+    <SUITE FILE_PATH="coverage/clone$_.coverage" NAME="数据集划分 新 覆盖结果" MODIFIED="1719920077746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$main.coverage" NAME="main 覆盖结果" MODIFIED="1719925472867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/ultralnew/ultralytics" />
+    <SUITE FILE_PATH="coverage/clone$json.coverage" NAME="将掩码变为json多类版 覆盖结果" MODIFIED="1719911379389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$predict2.coverage" NAME="predict2 覆盖结果" MODIFIED="1719312969078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$cuda_.coverage" NAME="cuda语义分割数据增强+棕色 覆盖结果" MODIFIED="1719910336225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$sdk_1_.coverage" NAME="海康相机采图sdk(1) 覆盖结果" MODIFIED="1719887341719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$yolotxtjson.coverage" NAME="yolotxt转json 覆盖结果" MODIFIED="1719908760579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/clone$3.coverage" NAME="获取3 覆盖结果" MODIFIED="1719038451066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$train.coverage" NAME="train 覆盖结果" MODIFIED="1719478537922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$setup.coverage" NAME="setup 覆盖结果" MODIFIED="1718709158131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3dpoint/SparseConvNet" />
-    <SUITE FILE_PATH="coverage/clone$.coverage" NAME="二值掩码 覆盖结果" MODIFIED="1719209335099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
-    <SUITE FILE_PATH="coverage/clone$test.coverage" NAME="test 覆盖结果" MODIFIED="1719538859062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/ultralytics" />
-    <SUITE FILE_PATH="coverage/clone$main.coverage" NAME="main 覆盖结果" MODIFIED="1719543827837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/ultralytics/examples/YOLOv8-Segmentation-ONNXRuntime-Python" />
+    <SUITE FILE_PATH="coverage/clone$.coverage" NAME="数据集划分 覆盖结果" MODIFIED="1719918957335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$yolotxt.coverage" NAME="转换为yolotxt 覆盖结果" MODIFIED="1719919522866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/clone$jsontomask2.coverage" NAME="jsontomask2 覆盖结果" MODIFIED="1719209633535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
-    <SUITE FILE_PATH="coverage/clone$json.coverage" NAME="json 覆盖结果" MODIFIED="1719195149348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
-    <SUITE FILE_PATH="coverage/clone$python_predict_py__i_image_jpg__o_output_jpg.coverage" NAME="python predict.py -i image.jpg -o output.jpg 覆盖结果" MODIFIED="1718885340048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$demo1.coverage" NAME="demo1 覆盖结果" MODIFIED="1719825456486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/ultralnew/ultralytics" />
     <SUITE FILE_PATH="coverage/clone$jsontomask.coverage" NAME="jsontomask 覆盖结果" MODIFIED="1719209156496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
-    <SUITE FILE_PATH="coverage/clone$predict2.coverage" NAME="predict2 覆盖结果" MODIFIED="1719312969078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
+    <SUITE FILE_PATH="coverage/clone$python_predict_py__i_image_jpg__o_output_jpg.coverage" NAME="python predict.py -i image.jpg -o output.jpg 覆盖结果" MODIFIED="1718885340048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$predict.coverage" NAME="predict 覆盖结果" MODIFIED="1719372558225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$traindemask.coverage" NAME="traindemask 覆盖结果" MODIFIED="1719458582693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$2.coverage" NAME="获取图像2 覆盖结果" MODIFIED="1719038203708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />

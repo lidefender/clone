@@ -31,10 +31,13 @@ def convert_json_to_txt_with_normalization_and_mapping(labelme_dir, output_dir, 
 
 
 # 使用示例
-labelme_dir = r"F:\work\python\clone\dataset\rebar2d\labelme_jsons"  # 指定Labelme JSON文件所在目录
-output_dir = r"F:\work\python\clone\dataset\rebar2d\yololabel"  # 指定输出的TXT文件目录
+
+
+labelme_dir = r"F:\work\dataset\rebar2D\train2\label2"  # 指定Labelme JSON文件所在目录
+output_dir = r"F:\work\dataset\rebar2D\train2\yolotxt"  # 指定输出的TXT文件目录
 label_mapping = {  # 标签映射字典
-    "rebar": 0
+    "rebar": 0,
+    "socket": 1
     # 添加更多标签映射
 }
 convert_json_to_txt_with_normalization_and_mapping(labelme_dir, output_dir, label_mapping)  # 调用函数进行转换
