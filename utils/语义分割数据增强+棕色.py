@@ -195,10 +195,10 @@ def process_folder(input_image_folder, input_mask_folder, output_image_folder, o
 
 
 if __name__ == "__main__":
-    input_image_folder = r"H:\data\rebar2D\train\img"
-    input_mask_folder = r"F:\work\dataset\rebar2D\train\mask"  # 输入掩码文件夹路径
-    output_image_folder = r"F:\work\dataset\rebar2D\train\img1"  # 输出图像文件夹路径
-    output_mask_folder = r"F:\work\dataset\rebar2D\train\mask1"  # 输出掩码文件夹路径
+    input_image_folder = r"F:\work\dataset\rebar2D\train2\img"
+    input_mask_folder = r"F:\work\dataset\rebar2D\train2\mask"  # 输入掩码文件夹路径
+    output_image_folder = r"F:\work\dataset\rebar2D\train2\img2"  # 输出图像文件夹路径
+    output_mask_folder = r"F:\work\dataset\rebar2D\train2\mask2"  # 输出掩码文件夹路径
 
     label_format = "mask"  # 标签格式，可选"mask"或"json"
     n_augmentations =4  # 每张图像增强的数量
