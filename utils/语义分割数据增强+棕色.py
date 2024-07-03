@@ -25,42 +25,9 @@ def pca_color_augmentation(image, alpha_std=0.1):
     return aug_img  # 返回增强后的图像
 
 
-import cv2
-import numpy as np
-
 
 def color_augment(image, alpha=0.5):
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)  # 转换到HSV颜色空间
-
-    # # 棕褐色的范围
-    # lower_brown = np.array([10, 100, 100])  # 棕色的下限
-    # upper_brown = np.array([20, 255, 200])  # 棕色的上限
-    #
-    # # 深棕色或黑色的范围
-    # lower_dark_brown = np.array([0, 50, 50])  # 深棕色的下限
-    # upper_dark_brown = np.array([20, 150, 150])  # 深棕色的上限
-    #
-    # mask = cv2.inRange(hsv, lower_brown, upper_brown)  # 创建棕色区域的掩码
-    # dark_mask = cv2.inRange(hsv, lower_dark_brown, upper_dark_brown)  # 创建深棕色区域的掩码
-    #
-    # combined_mask = cv2.bitwise_or(mask, dark_mask)  # 合并两个掩码
-    #
-    # brown_tint = np.array([19, 69, 139], dtype=np.float32)  # 定义棕褐色的色调
-    # image = image.astype(np.float32)
-    # image[combined_mask > 0] = (1 - alpha) * image[combined_mask > 0] + alpha * brown_tint  # 仅对掩码区域进行颜色增强
-    # image = np.clip(image, 0, 255).astype(np.uint8) ###
-    #
-    # hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)  # 转换到HSV颜色空间
-    # # 黑铁色的范围（深灰色到黑色）
-    # lower_black_iron = np.array([0, 0, 0])  # 黑铁色的下限
-    # upper_black_iron = np.array([180, 255, 70])  # 黑铁色的上限
-    #
-    # mask = cv2.inRange(hsv, lower_black_iron, upper_black_iron)  # 创建黑铁色区域的掩码
-    #
-    # silver_tint = silver_color()  # 获取亮银色
-    # image = image.astype(np.float32)
-    # image[mask > 0] = (1 - alpha) * image[mask > 0] + alpha * silver_tint  # 仅对掩码区域进行颜色增强
-    # image = np.clip(image, 0, 255).astype(np.uint8)
 
     # 黑铁色的范围（深灰色到黑色）
     lower_black_iron = np.array([0, 0, 0])  # 黑铁色的下限
