@@ -69,16 +69,12 @@ def augment_image(image, mask, n_augmentations=1, color_augmentation='pca'):
         A.HorizontalFlip(p=0.5),  # 水平翻转，概率为50%
         A.VerticalFlip(p=0.5),  # 垂直翻转，概率为50%
         A.RandomRotate90(p=0.5),  # 随机旋转90度，概率为50%
-        A.Transpose(p=0.5),  # 转置操作（交换x和y轴），概率为50%
+        # A.Transpose(p=0.5),       # 转置操作（交换x和y轴），概率为50%
         A.RandomBrightnessContrast(p=0.2),  # 随机调整亮度和对比度，概率为20%
         A.ElasticTransform(p=0.2),  # 弹性变换，概率为20%
         A.GridDistortion(p=0.2),  # 网格扭曲，概率为20%
-        A.ShiftScaleRotate(shift_limit=0.0825, scale_limit=0.1, rotate_limit=45, p=0.3),  # 平移、缩放和旋转，概率为20%
-        A.RandomCrop(height=640, width=640, p=0.4),  # 随机裁剪到256x256大小，概率为100%
-        # A.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2, p=0.3),  # 颜色抖动，概率为30%
-        A.GaussNoise(var_limit=(10.0, 50.0), p=0.2),  # 高斯噪声，概率为20%
-        A.MotionBlur(blur_limit=3, p=0.2),  # 模糊，概率为20%
-        # A.Cutout(num_holes=8, max_h_size=32, max_w_size=32, p=0.2)  # 随机遮挡，概率为20%
+        A.ShiftScaleRotate(shift_limit=0.0625, scale_limit=0.1, rotate_limit=45, p=0.2),  # 平移、缩放和旋转，概率为20%
+        # A.RandomCrop(height=256, width=256, p=1.0)  # 随机裁剪到256x256大小，概率为100%
     ])
 
     augmented_images = []  # 存储增强后的图像

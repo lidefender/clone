@@ -60,10 +60,8 @@ def split_dataset(image_dir, label_dir, output_dir, test_size=0.2, val_size=0.1,
 # 示例使用
 # input_dir = r"F:\work\python\clone\dataset\rebar2d\images"
 # output_dir = r"F:\work\python\clone\2d\ultralytics\dataset\rebar2d"
-#     input_folder = r"F:\work\dataset\rebar2D\train2\mask2"
-#     output_folder = r"F:\work\dataset\rebar2D\train2\label2"
-image_dir = r"F:\work\dataset\rebar2D\train2\img2"  # 图像目录路径
-label_dir = r"F:\work\dataset\rebar2D\train2\yolotxt"  # 标签目录路径
-output_dir =r"F:\work\dataset\rebar2D\yolodataset1"  # 输出目录路径
+image_dir = r"F:\work\python\clone\dataset\rebar2d\images"  # 图像目录路径
+label_dir = r'F:\work\python\clone\dataset\rebar2d\yololabel'  # 标签目录路径
+output_dir = r"F:\work\python\clone\2d\ultralytics\dataset\rebar2d"  # 输出目录路径
 
 split_dataset(image_dir, label_dir, output_dir, test_size=0.1, val_size=0, test_split=False)

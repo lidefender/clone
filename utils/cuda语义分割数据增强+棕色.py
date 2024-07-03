@@ -128,12 +128,12 @@ def process_folder(input_image_folder, input_mask_folder, output_image_folder, o
             cv2.imwrite(output_mask_path, mask_aug)  # 保存增强后的掩码
 
 if __name__ == "__main__":
-    input_image_folder = r"F:\work\dataset\rebar2D\train2\img"
-    input_mask_folder = r"F:\work\dataset\rebar2D\train2\mask"  # 输入掩码文件夹路径
-    output_image_folder = r"F:\work\dataset\rebar2D\train2\img2"  # 输出图像文件夹路径
-    output_mask_folder = r"F:\work\dataset\rebar2D\train2\mask2"  # 输出掩码文件夹路径
+    input_image_folder = r"F:\work\dataset\rebar2D\train\img"
+    input_mask_folder = r"F:\work\dataset\rebar2D\train\mask"  # 输入掩码文件夹路径
+    output_image_folder = r"F:\work\dataset\rebar2D\train\img2"  # 输出图像文件夹路径
+    output_mask_folder = r"F:\work\dataset\rebar2D\train\mask2"  # 输出掩码文件夹路径
 
     label_format = "mask"  # 标签格式，可选"mask"或"json"
-    n_augmentations = 3  # 每张图像增强的数量
+    n_augmentations = 4  # 每张图像增强的数量
     color_augmentation = 'pca'  # 颜色增强方式，可选"pca"或"
     process_folder(input_image_folder, input_mask_folder, output_image_folder, output_mask_folder, label_format, n_augmentations, color_augmentation)
