@@ -19,7 +19,7 @@ def yolo_to_json(yolo_file_path, json_file_path, image_path, label_map):
             for i in range(1, len(parts), 2):
                 x = float(parts[i]) * image_width
                 y = float(parts[i + 1]) * image_height
-                points.append([x, y])
+                points.append([x, y-3])
             shape = {
                 "label": label,
                 "points": points,
@@ -63,9 +63,9 @@ def batch_process(label_folder, image_folder, output_folder, label_map):
 
 # 示例调用
 if __name__ == '__main__':
-    label_folder = r"F:\work\dataset\rebar2D\yolodataset\train"
-    image_folder = r"F:\work\dataset\rebar2D\yolodataset\train"
-    output_folder = r"F:\work\dataset\rebar2D\yolodataset\train"
+    label_folder = r"F:\work\dataset\rebar2D\train\video\annotated_frames"
+    image_folder = r"F:\work\dataset\rebar2D\train\video\annotated_frames"
+    output_folder = r"F:\work\dataset\rebar2D\train\video\annotated_frames"
 
     # 定义标签映射
     label_map = {
