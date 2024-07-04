@@ -269,10 +269,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.数据集划分" />
       <item itemvalue="Python.数据集划分 新" />
+      <item itemvalue="Python.数据集划分" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.转换为yolotxt" />
     </list>
     <recent_temporary>
