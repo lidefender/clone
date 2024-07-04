@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685f05f7-7edc-42ef-9dde-ad23a8f11206" name="更改" comment="666">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/语义分割数据增强+棕色.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/语义分割数据增强+棕色.py" afterDir="false" />
-    </list>
+    <list default="true" id="685f05f7-7edc-42ef-9dde-ad23a8f11206" name="更改" comment="666" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -269,10 +266,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.数据集划分 新" />
-      <item itemvalue="Python.数据集划分" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.数据集划分" />
+      <item itemvalue="Python.数据集划分 新" />
       <item itemvalue="Python.转换为yolotxt" />
     </list>
     <recent_temporary>
@@ -428,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719928330935</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="666">
+      <option name="closed" value="true" />
+      <created>1720056539556</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720056539556</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
