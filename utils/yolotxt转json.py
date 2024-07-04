@@ -64,6 +64,7 @@ def batch_process(label_folder, image_folder, output_folder, label_map):
 # 示例调用
 if __name__ == '__main__':
     label_folder = r"F:\work\dataset\rebar2D\train\video\annotated_frames"
+
     image_folder = r"F:\work\dataset\rebar2D\train\video\annotated_frames"
     output_folder = r"F:\work\dataset\rebar2D\train\video\annotated_frames"
 

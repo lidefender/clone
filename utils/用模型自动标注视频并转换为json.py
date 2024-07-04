@@ -1,7 +1,9 @@
 import cv2
 import os
+import json
 from pathlib import Path
 from ultralytics.data.annotator import auto_annotate
+from PIL import Image
 
 
 def process_video(video_path, output_dir, det_model, sam_model, frame_interval=1, manual_roi=False, show_video=False):
@@ -33,6 +35,7 @@ def process_video(video_path, output_dir, det_model, sam_model, frame_interval=1
     cap = cv2.VideoCapture(video_path)
     frame_count = 0
     roi = None
+    video_name = os.path.splitext(os.path.basename(video_path))[0]
 
     if manual_roi:
         ret, frame = cap.read()
@@ -64,11 +67,24 @@ def process_video(video_path, output_dir, det_model, sam_model, frame_interval=1
                 roi_frame = frame
 
             # 保存当前帧
-            frame_filename = os.path.join(output_dir, f"frame_{frame_count}.jpg")
+            frame_filename = os.path.join(output_dir, f"{video_name}_frame_{frame_count}.jpg")
             cv2.imwrite(frame_filename, roi_frame)
 
             # 自动标注
             auto_annotate(data=frame_filename, det_model=det_model, sam_model=sam_model, output_dir=output_dir)
+
+            # 检查是否生成了YOLO标签文件
+            yolo_label_path = os.path.splitext(frame_filename)[0] + '.txt'
+            if os.path.exists(yolo_label_path):
+                json_label_path = os.path.splitext(frame_filename)[0] + '.json'
+                # 定义标签映射
+                label_map = {
+                    0: 'rebar',
+                    1: 'socket'
+                    # 添加更多标签映射
+                }
+                # 转换为JSON格式
+                yolo_to_json(yolo_label_path, json_label_path, frame_filename, label_map)
 
         frame_count += 1
 
@@ -77,11 +93,56 @@ def process_video(video_path, output_dir, det_model, sam_model, frame_interval=1
         cv2.destroyAllWindows()
 
 
-# 使用示例
-video_path = r"F:\work\python\clone\2d\ultralnew\ultralytics\dataset\32mm coupler steel bar tensile strength testing.mp4"
-output_dir = r"F:\work\dataset\rebar2D\train\video\annotated_frames"
-det_model = r"F:\warehouse\download\best (1).pt"
-sam_model = r"F:\warehouse\download\sam_b.pt"
+def yolo_to_json(yolo_file_path, json_file_path, image_path, label_map):
+    # 读取图片以获取宽度和高度
+    image = Image.open(image_path)
+    image_width, image_height = image.size
 
-# 处理视频，每隔10帧标注一帧，并且使用手动ROI选择和实时显示视频
-process_video(video_path, output_dir, det_model, sam_model, frame_interval=10, manual_roi=True, show_video=True)
+    shapes = []
+    with open(yolo_file_path, 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            parts = line.strip().split()
+            class_index = int(parts[0])
+            label = label_map.get(class_index, str(class_index))  # 获取自定义标签名称
+            points = []
+            for i in range(1, len(parts), 2):
+                x = float(parts[i]) * image_width
+                y = float(parts[i + 1]) * image_height
+                points.append([x, y ])
+            shape = {
+                "label": label,
+                "points": points,
+                "group_id": None,
+                "description": "",
+                "shape_type": "polygon",
+                "flags": {},
+                "mask": None
+            }
+            shapes.append(shape)
+
+    json_data = {
+        "flags": {},
+        "shapes": shapes,
+        "imagePath": os.path.basename(image_path),
+        "imageData": None,
+        "imageHeight": image_height,
+        "imageWidth": image_width
+    }
+
+    with open(json_file_path, 'w') as json_file:
+        json.dump(json_data, json_file, indent=4)
+
+
+# 主程序入口
+if __name__ == '__main__':
+    video_path = r"F:\work\python\clone\2d\ultralnew\ultralytics\dataset\tensilestrengthtesting.mp4"
+    output_dir = r"F:\work\dataset\rebar2D\train\video\annotated_frames"
+    det_model = r"F:\warehouse\download\epoch160.pt"
+    sam_model = r"F:\warehouse\download\sam_b.pt"
+    frame_interval = 20
+    manual_roi = True
+    show_video = False
+
+    # 处理视频，每隔10帧标注一帧，并且使用手动ROI选择和实时显示视频
+    process_video(video_path, output_dir, det_model, sam_model, frame_interval, manual_roi, show_video)

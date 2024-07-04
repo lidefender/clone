@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685f05f7-7edc-42ef-9dde-ad23a8f11206" name="更改" comment="666">
-      <change afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/分割后处理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/视频引伸计.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/用模型自动标注视频.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/语义分割数据增强最新.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/dataset/Extensometer.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/用模型自动标注视频并转换为json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/ultralnew/ultralytics/引伸计.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/引伸计.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2d/ultralnew/ultralytics/引伸计传统.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/引伸计传统.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d/ultralnew/ultralytics/dataset/32mm coupler steel bar tensile strength testing.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/2d/ultralnew/ultralytics/dataset/tensilestrengthtesting.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/yolotxt转json.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/yolotxt转json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/将json变为掩码.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/将json变为掩码.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/用模型自动标注.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/用模型自动标注.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/语义分割数据增强+棕色.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/backup/语义分割数据增强+棕色.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/语义分割数据增强+棕色2.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/backup/语义分割数据增强+棕色2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/语义分割数据增强.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/backup/语义分割数据增强.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/语义分割数据增强json版.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/backup/语义分割数据增强json版.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/用模型自动标注视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/用模型自动标注视频.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +87,7 @@
     "Python.用模型加传统方法得到掩码.executor": "Run",
     "Python.用模型自动标注.executor": "Run",
     "Python.用模型自动标注视频.executor": "Run",
+    "Python.用模型自动标注视频并转换为json.executor": "Run",
     "Python.获取3.executor": "Run",
     "Python.获取图像2.executor": "Run",
     "Python.获取图像并测试.executor": "Run",
@@ -148,7 +141,7 @@
       <visibility group="运行 pip 命令" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Python.用模型自动标注视频">
+  <component name="RunManager" selected="Python.用模型自动标注视频并转换为json">
     <configuration name="用模型自动标注视频" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="clone" />
       <option name="ENV_FILES" value="" />
@@ -241,6 +234,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="用模型自动标注视频并转换为json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="clone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/用模型自动标注视频并转换为json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="yolotxt转json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="clone" />
       <option name="ENV_FILES" value="" />
@@ -265,18 +281,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.用模型自动标注视频并转换为json" />
       <item itemvalue="Python.yolotxt转json" />
       <item itemvalue="Python.将json变为掩码" />
       <item itemvalue="Python.用模型自动标注视频" />
-      <item itemvalue="Python.语义分割数据增强" />
-      <item itemvalue="Python.语义分割数据增强最新" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.用模型自动标注视频" />
+        <item itemvalue="Python.用模型自动标注视频并转换为json" />
         <item itemvalue="Python.yolotxt转json" />
-        <item itemvalue="Python.语义分割数据增强最新" />
-        <item itemvalue="Python.语义分割数据增强" />
+        <item itemvalue="Python.用模型自动标注视频" />
         <item itemvalue="Python.将json变为掩码" />
       </list>
     </recent_temporary>
@@ -336,7 +350,9 @@
       <workItem from="1719886228829" duration="4426000" />
       <workItem from="1719895439554" duration="19655000" />
       <workItem from="1720060658759" duration="7094000" />
-      <workItem from="1720079948304" duration="14324000" />
+      <workItem from="1720079948304" duration="14884000" />
+      <workItem from="1720099846057" duration="484000" />
+      <workItem from="1720100339250" duration="2580000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <option name="closed" value="true" />
@@ -450,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720056715176</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="666">
+      <option name="closed" value="true" />
+      <created>1720099297045</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720099297045</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,16 +587,16 @@
     <SUITE FILE_PATH="coverage/clone$json_copy.coverage" NAME="语义分割数据增强json版 copy 覆盖结果" MODIFIED="1720063323931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/clone$_.coverage" NAME="数据集划分 新 覆盖结果" MODIFIED="1719920077746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/clone$main.coverage" NAME="main 覆盖结果" MODIFIED="1719925472867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/ultralnew/ultralytics" />
-    <SUITE FILE_PATH="coverage/clone$json.coverage" NAME="将json变为掩码 覆盖结果" MODIFIED="1720086336304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$json.coverage" NAME="用模型自动标注视频并转换为json 覆盖结果" MODIFIED="1720102279469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/clone$predict2.coverage" NAME="predict2 覆盖结果" MODIFIED="1719312969078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$cuda_.coverage" NAME="cuda语义分割数据增强+棕色 覆盖结果" MODIFIED="1719910336225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/clone$sdk_1_.coverage" NAME="海康相机采图sdk(1) 覆盖结果" MODIFIED="1719887341719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/clone$yolotxtjson.coverage" NAME="yolotxt转json 覆盖结果" MODIFIED="1720098716071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$yolotxtjson.coverage" NAME="yolotxt转json 覆盖结果" MODIFIED="1720100626063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/clone$3.coverage" NAME="获取3 覆盖结果" MODIFIED="1719038451066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$train.coverage" NAME="train 覆盖结果" MODIFIED="1719478537922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$setup.coverage" NAME="setup 覆盖结果" MODIFIED="1718709158131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3dpoint/SparseConvNet" />
     <SUITE FILE_PATH="coverage/clone$yolotxt.coverage" NAME="转换为yolotxt 覆盖结果" MODIFIED="1719919522866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/clone$.coverage" NAME="用模型自动标注视频 覆盖结果" MODIFIED="1720098921661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/clone$.coverage" NAME="用模型自动标注视频 覆盖结果" MODIFIED="1720100489960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/clone$jsontomask2.coverage" NAME="jsontomask2 覆盖结果" MODIFIED="1719209633535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
     <SUITE FILE_PATH="coverage/clone$demo1.coverage" NAME="demo1 覆盖结果" MODIFIED="1719825456486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/ultralnew/ultralytics" />
     <SUITE FILE_PATH="coverage/clone$jsontomask.coverage" NAME="jsontomask 覆盖结果" MODIFIED="1719209156496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2d/Pytorch-UNet" />
