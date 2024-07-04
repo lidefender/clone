@@ -5,11 +5,12 @@ import cv2
 model = YOLO(r"F:\warehouse\download\best (1).pt")
 
 # 打开视频捕获对象（0 表示摄像头，也可以替换为视频文件路径）
-cap = cv2.VideoCapture(r"F:\warehouse\download\Video\32mm coupler steel bar tensile strength testing.mp4")
+cap = cv2.VideoCapture(r"D:\work\python\clone\2d\ultralnew\ultralytics\dataset\v1.mp4")
 
 # 检查是否成功打开视频流
 if not cap.isOpened():
     print("Error: Could not open video stream or file")
+
     exit()
 
 # 获取视频帧的宽度和高度
@@ -21,6 +22,7 @@ out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'XVID'), 20.0, (fram
 
 while cap.isOpened():
     ret, frame = cap.read()
+
     if not ret:
         break
 
